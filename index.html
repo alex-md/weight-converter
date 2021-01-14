@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Weight converter</title>
-  <link href=
-  "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-  rel="stylesheet">
-  <style>
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Weight converter</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
       body {
         margin-top: 70px;
         background-color: #333;
         color: #fafafa;
       }
 
-  </style>
-</head>
+      .card-block {
+        padding: 1rem;
+      }
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h1 class="display-4 text center mb-3">Weight Converter</h1>
+    </style>
+  </head>
 
-
-        <form>
-          <div class="form-group">
-            <input class="form-control form-control-lg" id="lbsInput"
-            placeholder="Enter pounds" type="number">
-          </div>
-        </form>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="display-4 text center mb-3">Weight Converter</h1>
 
 
-        <div id="output">
-          <div class="card bg-primary mb-2">
-            <div class="card-block">
-              <h4>Grams:</h4>
+          <form>
+            <div class="form-group">
+              <input class="form-control form-control-lg" id="lbsInput" placeholder="Enter pounds" type="number">
+            </div>
+          </form>
 
 
-              <div id="gramsOutput">
+          <div id="output">
+            <div class="card bg-primary mb-2">
+              <div class="card-block">
+                <h4>Grams:</h4>
+
+
+                <div id="gramsOutput">
+                </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="card bg-success mb-2">
-            <div class="card-block">
-              <h4>Kilograms:</h4>
+            <div class="card bg-success mb-2">
+              <div class="card-block">
+                <h4>Kilograms:</h4>
 
 
-              <div id="kilogramsOutput">
+                <div id="kilogramsOutput">
+                </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="card bg-danger mb-2">
-            <div class="card-block">
-              <h4>Ounces:</h4>
+            <div class="card bg-danger mb-2">
+              <div class="card-block">
+                <h4>Ounces:</h4>
 
 
-              <div id="ouncesOutput">
+                <div id="ouncesOutput">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="app.js">
-  </script>
-</body>
+  </body>
+
 </html>
